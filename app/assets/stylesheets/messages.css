@@ -116,7 +116,7 @@
   margin-bottom: 40px;
 }
 
-.main_footer{
+.form{
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
@@ -124,13 +124,13 @@
   box-sizing: border-box;
 }
 
-.message-text{
+.form-input{
   background-color: white;
   display: flex;
   width: 100%;
 }
 
-.text-message{
+.form-message{
   padding-left: 10px;
   border: none;
   height: 50px;
