@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     get '/users/sign_out' => 'devise/sessions#destroy'
   end
 
-  # get 'rooms/:id'  =>  'rooms#destroy'
+  get 'rooms/:id'  =>  'rooms#destroy'
 
   resources :rooms, only: [:new, :create, :destroy] do
     resources :messages, only: [:index, :create]
